@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{font-family: 'Roboto';}
+body{background-image: url("../images/backdrop.jpg"); color:rgb(0, 0, 0); background-size: cover; background-repeat: no-repeat; background-color: rgb(3, 17, 43);}
+.content{width: 100%; background-color:rgba(255, 255, 255, 0.35); height: 1025px; border-radius:3px;}
+.main1{padding-top:140px; padding-bottom:0px;}
+.aboutme{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:0ms; -webkit-animation-delay:50ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}
+.main1pg{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:100ms; -webkit-animation-delay:100ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}
+.main2pg{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:100ms; -webkit-animation-delay:150ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}
+.aboutmyfamily{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:150ms; -webkit-animation-delay:200ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}
+.aboutmyfamilypg{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:200ms; -webkit-animation-delay:250ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}
+@keyframes slidedown{from{opacity:0; transform: translatey(-2px);} to{opacity:1;}}
+@-webkit-keyframes slidedown{from{opacity:0; transform: translatey(-2px);} to{opacity:1;}}

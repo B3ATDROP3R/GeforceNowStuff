@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{font-family: 'Roboto';}
+body{background-image: url("images/backdrop.jpg"); color:#fff; background-size: cover; background-repeat: no-repeat; background-color: rgb(3, 17, 43);}
+.content{width: 100%; background-color:rgba(255, 255, 255, 0.35); height: 1025px; border-radius:3px;}
+iframe{float:right; padding-top: 150px; margin-bottom: auto; margin-right: auto; margin-left: auto; animation: slidedown 250ms ease-in-out; animation-delay: 150ms; animation-fill-mode: forwards;}
+.messages1{padding-top:140px; padding-bottom:0px; color:rgb(0,0,0); animation: slideupaway 150ms ease; animation-fill-mode: forwards; animation-delay: 1s; padding-bottom:5px;}
+.messages2{padding-bottom:0px; color:rgb(0,0,0); padding-bottom:5px;}
+.messages3{padding-bottom:0px; color:rgb(0,0,0); padding-bottom:5px;}
+.messages4{padding-bottom:0px; color:rgb(0,0,0); padding-bottom:5px;}
+.metest{animation: slideupaway1 1s ease; animation-fill-mode: forwards;}
+@keyframes slidedown{from{opacity:0; transform: translatey(-2px);} to{opacity:1;}}
+@keyframes slideupaway{from{opacity:1;} to{opacity:0; transform: translateY(-12px);}}
+@keyframes slideupaway1{from{transform: translateY(-5px);} to{opacity:0; transform: translateY(-5px);}}
+@-webkit-keyframes slidedown{from{opacity:0; transform: translatey(-2px);} to{opacity:1;}}

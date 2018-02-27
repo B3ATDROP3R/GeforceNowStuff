@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 *{font-family: 'Roboto';}
 body{background-image: url("../images/backdrop.jpg"); color:rgb(0, 0, 0); background-size: cover; background-repeat: no-repeat; background-color: rgb(3, 17, 43);}
-.content{width: 100%; background-color:rgba(255, 255, 255, 0.35); height: auto; border-radius:3px; padding-bottom: 140px;;}
+.content{width: 100%; background-color:rgba(255, 255, 255, 0.35); height: auto; border-radius:3px; padding-bottom: 140px;}
 .header{padding-top:140px; padding-bottom:0px;}
 .aboutme{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:0ms; -webkit-animation-delay:50ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}
 .aboutme1pg{animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 250ms ease-in-out; animation-delay:100ms; -webkit-animation-delay:100ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards; max-width: 50%; opacity: 0;}

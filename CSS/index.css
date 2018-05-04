@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 *{font-family: 'Roboto';}
-html{background: url(../images/backdrop.jpg), no-repeat center center fixed; color:#fff; background-size: cover; background-repeat: no-repeat; background-color: rgb(3, 17, 43); color:rgb(0,0,0);}
 .content{width: 100%; background-color:rgba(255, 255, 255, 0.35); height: 1025px; border-radius:3px;}
 .div1{padding-top:25px; opacity:0; animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 150ms ease-in-out; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards;}
 .p1{padding-top:25px; opacity:0; animation: slidedown 250ms ease-in-out; -webkit-animation: slidedown 150ms ease-in-out; animation-delay: 50ms; -webkit-animation-delay: 50ms; animation-fill-mode: forwards; -webkit-animation-fill-mode: forwards;}
